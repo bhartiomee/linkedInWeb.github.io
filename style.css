@@ -1,0 +1,426 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 1s;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color:#e1e9ee ;
+}
+
+/* COMMON CLASSES */
+
+
+
+
+/* NAVBAR STYLE */
+
+.navbar {
+    /* border: 2px solid red; */
+    height: 52px;
+    background-color: #283e4a;
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+}
+
+/* LEFT-NAV */
+
+.left-nav {
+    display: flex;
+    width: 30%;
+    margin: 0px 0px 0px 89px;
+}
+
+.logo {
+    padding: 6px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin: 10px 10px 10px 0px;
+    height: 34px;
+    width: 35px;
+}
+
+.search {
+    display: flex;
+    height: 34px;
+    margin: 10px 0px;
+    padding: 9px 8px;
+    background-color: #e1e9ee;
+    border-radius: 3px;
+}
+
+.search-icon {
+    padding: 5px 0px;
+}
+
+.search-icon img {
+    height: 16px;
+    width: 17px;
+}
+
+.input-tag input {
+    background-color: #e1e9ee;
+    width: 257px;
+    border-radius: 2px;
+    padding: 0 8px 0 6px;
+    line-height: 1.75;
+    color: rgba(40, 62, 74, .75);
+    font-size: 14px;
+    border: transparent;
+}
+
+/* ----------- */
+
+/* RIGHT-NAV */
+
+.right-nav {
+    line-height: 16px;
+    display: flex;
+    /* width: 70%; */
+    justify-content: space-evenly;
+    /* border: 1px solid green; */
+    margin-top: 2px;
+    margin-left: 107px;
+}
+
+.right-nav li {
+    list-style: none;
+    margin: 0px 7px;
+}
+
+.right-nav-divs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-nav img {
+    height: 66px;
+    margin-top: -6px;
+    margin: -6px 10px 0px 6px;
+    width: 28px;
+    
+}
+
+.home img {
+    height: 33px;
+    width: 24px;
+    margin-top: 10px;
+    filter: none;
+}
+
+/* DROP DOWN-DIVS */
+
+.dropdown-menus {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.toggle-items {
+    display: flex;
+}
+
+/* PROFILE */
+
+.profile-div button {
+    background-color: transparent;
+    border: none;
+}
+
+#profile-img {
+    border-radius: 50%;
+    height: 32px;
+    width: 27px;
+    margin: 10px 0px;
+    border: 1px solid #c7d1d8;
+    filter: none;
+}
+
+/* ----------- */
+
+/* WORK */
+
+.work-div button {
+    background-color: transparent;
+    border: none;
+}
+
+.work .drop-down-arrow {
+    margin-top: -19px;
+    margin-left: 4px;
+}
+
+.work a {
+    margin-right: -13px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -12px;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    font-weight: 600;
+    color: #c7d1d8;
+    transition: color .3s;
+}
+
+.work a:hover {
+    color: white;
+}
+
+.work img {
+    height: 24px;
+    width: 19px;
+    margin: 10px 0px;
+    filter: none;
+}
+
+.drop-down-arrow img {
+    height: 12px;
+    width: 11px;
+    filter: none;
+}
+
+.drop-down-arrow {
+    margin-top: -11px;
+    margin-left: 4px;
+}
+
+.offer-div {
+    text-align: center;
+    margin: 10px 0px;
+}
+.offer a {
+    text-decoration: none;
+    color: #dccea4;
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+
+
+
+/* WALL STYLING */
+
+.wall-body{
+    
+    display: flex;
+    
+}
+.blank{
+    background-color: white;
+    height: 20px;
+    /* border: 2px solid red; */
+    height: 616px;
+
+}
+.blank-1{
+    width: 199px;
+    margin-left: 85px;
+}
+.blank-2{
+    width: 407px;
+}
+.account-wall-body{
+    
+    position: relative;
+    width: 597px;
+    margin: 3px 6px;
+    background-color: white;
+   
+}
+.cards{
+    border: 1px solid rgb(132, 143, 132);
+    border-radius: 2px;
+    box-shadow: 0px 15px 17px -13px #4f4949;
+    background-color: #fff;
+}
+.card-2{
+    margin-top: 6px;
+}
+.notifications{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.ham img{
+    height: 20px;
+    width: 30px;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+.info p{
+    color: gray;
+}
+.left-header{
+    display: flex;
+}
+.right-header{
+    display: flex;
+    padding: 14px;
+}
+
+.caption p
+{
+    padding: 11px;
+}
+
+
+.image img{
+    height: 474px;
+    width: 595px;
+}
+.follow-image img{
+    height: 17px;
+    width: 20px;
+}
+.follow-btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.follow-text p{
+color: #0073B1;
+font-weight: 700;
+}
+
+.card-logo img{
+    height: 50px;
+    width: 39px;
+    margin: 0px 8px 0px 0px;
+}
+.react-buttons
+{
+    padding: 2px 21px;
+}
+.react-buttons ul{
+    display: flex;
+}
+.react-buttons ul li{
+    list-style: none;
+    margin: 2px 13px;
+    line-height: 21px;
+    display: flex;
+}
+.react-buttons p{
+    font-size: 11px;
+    color: #6c6767;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.react-buttons li img{
+    height: 18px;
+    width: 20px;
+    margin: 0px 3px;
+}
+.react-btn{
+    background: transparent;
+    border: none;
+}
+
+
+
+.card-2 .card-logo img{
+    border-radius: 50%;
+    border-radius: 50%;
+    width: 46px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.services-text{
+    height: 66px;
+    
+}
+.services{
+    border: 1px solid rgb(132, 143, 132);
+    border-radius: 2px;
+    padding: 0px 9px;
+    width: 351px;
+}
+.services-text a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 3px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.services-text p{
+    color: gray;
+    font-size: 18px;
+}
+.services h2{
+    margin: 44px 0px;
+}
+.products-image{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 11px;
+    margin: 8px 0px;
+}
+.products-image img{
+    height: 30px;
+    width: 30px;
+}
+.products{
+    border: 1px solid rgb(132, 143, 132);
+    border-radius: 2px;
+    padding: 0px 12px;
+    width: 351px;
+}
+
+.products h2
+{
+    margin: 16px 0px;
+}
+
+
+/* FOOTER  STYLING */
+/* footer{
+    position: relative;
+}
+footer ul {
+    display: flex;
+}
+footer ul li{
+    list-style: none;
+}
+
+footer ul li img{
+    width: 20px;
+    height: 20px;
+} */
